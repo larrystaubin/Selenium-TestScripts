@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Search Test">
+    <classes>
+      <class name="net.trainingrite.shoppingcart.Search"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Add To Cart Test">
+    <classes>
+      <class name="net.trainingrite.shoppingcart.AddToCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Modify Cart Test">
+    <classes>
+      <class name="net.trainingrite.shoppingcart.ModifyCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Checkout Test">
+    <classes>
+      <class name="net.trainingrite.shoppingcart.Checkout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Submit Order Test">
+    <classes>
+      <class name="net.trainingrite.shoppingcart.SubmitOrder"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Confirm Order Test">
+    <classes>
+      <class name="net.trainingrite.shoppingcart.ConfirmOrder"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
